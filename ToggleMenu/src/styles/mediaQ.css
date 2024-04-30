@@ -1,0 +1,57 @@
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .mobile-menu-icon button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Custom UL */
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top:1.2rem ;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+}
+
+/* Class to Js */
+.open {
+    display: block;
+    
+}
